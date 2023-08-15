@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sönke Venjacob</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/14c11d29b8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <section class="header" id="header">
+      <nav>
+        <div class="nav-links" id="nav-links">
+          <i class="fa regular fa-circle-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#footer">ABOUT ME</a></li>
+            <li>
+              <a href="https://www.youtube.com/@soenkevenjacob/featured"
+                >MY YOUTUBE CHANNEL</a
+              >
+            </li>
+          </ul>
+        </div>
+        <i class="fa solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>Sönke Venjacob</h1>
+        <p>
+          I help young men have a better live by improving their health &
+          fitness, removing bad habits, attracting the right women & helping
+          them find their purpose.
+        </p>
+        <a href="#callMe" class="hero-btn">Book Your Free Discovery Call</a>
+      </div>
+
+      <img
+        src="images/profile.png"
+        class="image"
+        alt="image of Sönke Venjacob"
+      />
+    </section>
+    <!-- Course -->
+    <section class="course">
+      <h1>Course</h1>
+      <p>Comming Soon (September 2023)</p>
+
+      <div class="row">
+        <div class="course-col">
+          <img src="images/banner.jpg" alt="course thumbnail" />
+          <h3>Life Mastery For Men</h3>
+          <p>
+            Elevate your life with <em>Life Mastery for Men</em>: an online
+            course guiding you to holistic success through personal growth,
+            meaningful goals, and empowered relationships. Start your journey to
+            a fulfilled and balanced life today.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- coaching -->
+    <section class="coaching" id="callMe">
+      <h1>Coaching</h1>
+      <p>
+        Schedule an introductry coaching call with me to see if we're a good fit
+        to work together.
+      </p>
+      <a
+        href="https://calendly.com/soenkevenjacob/discoverycall?month=2023-08"
+        class="coaching-button"
+        >Book Now</a
+      >
+    </section>
+
+    <!-- testimonials -->
+    <section class="testimonials">
+      <h1>What My Students Say</h1>
+
+      <div class="row">
+        <div class="testimonial-col">
+          <img src="images/user1.jpg" />
+          <div>
+            <p>
+              "Sönke Venjacob's 'Life Mastery For Men' isn't your usual
+              self-help. His approach is real and relatable. It's like he's been
+              in our shoes. The course is a refreshing take on personal growth."
+            </p>
+            <h3>-Benjamin Parker</h3>
+            <i class="fa solid fa-star"></i>
+            <i class="fa solid fa-star"></i>
+            <i class="fa solid fa-star"></i>
+            <i class="fa solid fa-star"></i>
+            <i class="fa solid fa-star"></i>
+          </div>
+        </div>
+        <div class="testimonial-col">
+          <img src="images/user2.jpg" />
+          <div>
+            <p>
+              "When I signed up for 'Life Mastery For Men,' I wasn't sure. But
+              the content impressed me. Practical and genuine insights that
+              Snoke shares make a lot of sense in real life."
+            </p>
+            <h3>-Ethan Sullivan</h3>
+            <i class="fa solid fa-star"></i>
+            <i class="fa solid fa-star"></i>
+            <i class="fa solid fa-star"></i>
+            <i class="fa solid fa-star"></i>
+            <i class="fa solid fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call To Action -->
+    <section class="cta">
+      <a href="https://soenkevenjacob.ck.page/newsletter" class="hero-btn"
+        >Join My Newsletter</a
+      >
+    </section>
+
+    <!-- Footer -->
+    <section class="footer" id="footer">
+      <h4>About Me</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi dicta
+        ab itaque facere similique quibusdam eveniet accusantium, nostrum quia,
+        molestiae repellendus quam quod explicabo eum, iste ipsum! Labore, at?
+      </p>
+      <div class="icons">
+        <a href="https://www.youtube.com/@soenkevenjacob/featured"
+          ><i class="fa-brands fa-youtube"></i
+        ></a>
+        <a href="https://twitter.com/soenkevenjacob"
+          ><i class="fa-brands fa-x-twitter"></i
+        ></a>
+        <a href="https://www.instagram.com/soenke.venjacob/"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/soenkevenjacob/"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+      </div>
+      <p>2023</p>
+    </section>
+
+    <!-- Javascript for Toggle Menu -->
+    <script>
+      let navLinks = document.getElementById("nav-links");
+
+      const showMenu = () => {
+        navLinks.style.left = "0px";
+      };
+      const hideMenu = () => {
+        navLinks.style.left = "-200px";
+      };
+    </script>
+  </body>
+</html>
